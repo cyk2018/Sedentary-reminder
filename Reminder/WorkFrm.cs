@@ -249,5 +249,10 @@ namespace Reminder
         {
            
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.timerWrk.Enabled = !this.timerWrk.Enabled;
+        }
     }
 }

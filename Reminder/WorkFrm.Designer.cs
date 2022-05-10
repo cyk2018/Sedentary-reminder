@@ -36,6 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblWarn = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // timerWrk
@@ -53,7 +54,7 @@
             this.lblSecond.ForeColor = System.Drawing.Color.White;
             this.lblSecond.Location = new System.Drawing.Point(94, 33);
             this.lblSecond.Name = "lblSecond";
-            this.lblSecond.Size = new System.Drawing.Size(27, 19);
+            this.lblSecond.Size = new System.Drawing.Size(32, 23);
             this.lblSecond.TabIndex = 4;
             this.lblSecond.Text = "  ";
             this.lblSecond.Click += new System.EventHandler(this.LblSecond_Click);
@@ -69,7 +70,7 @@
             this.lblMin.ForeColor = System.Drawing.Color.White;
             this.lblMin.Location = new System.Drawing.Point(55, 33);
             this.lblMin.Name = "lblMin";
-            this.lblMin.Size = new System.Drawing.Size(27, 19);
+            this.lblMin.Size = new System.Drawing.Size(32, 23);
             this.lblMin.TabIndex = 5;
             this.lblMin.Text = "  ";
             this.lblMin.MouseDown += new System.Windows.Forms.MouseEventHandler(this.WorkFrm_MouseDown);
@@ -84,7 +85,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(80, 35);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(15, 14);
+            this.label2.Size = new System.Drawing.Size(18, 18);
             this.label2.TabIndex = 6;
             this.label2.Text = ":";
             this.label2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.WorkFrm_MouseDown);
@@ -111,7 +112,7 @@
             this.lblWarn.ForeColor = System.Drawing.Color.White;
             this.lblWarn.Location = new System.Drawing.Point(33, 8);
             this.lblWarn.Name = "lblWarn";
-            this.lblWarn.Size = new System.Drawing.Size(93, 20);
+            this.lblWarn.Size = new System.Drawing.Size(120, 25);
             this.lblWarn.TabIndex = 7;
             this.lblWarn.Text = "注意坐姿";
             this.lblWarn.Click += new System.EventHandler(this.Label1_Click);
@@ -119,11 +120,22 @@
             this.lblWarn.MouseMove += new System.Windows.Forms.MouseEventHandler(this.WorkFrm_MouseMove);
             this.lblWarn.MouseUp += new System.Windows.Forms.MouseEventHandler(this.WorkFrm_MouseUp);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(51, 56);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "切换计时";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // WorkFrm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.Green;
-            this.ClientSize = new System.Drawing.Size(148, 55);
+            this.ClientSize = new System.Drawing.Size(153, 80);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblWarn);
             this.Controls.Add(this.label2);
@@ -155,6 +167,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblWarn;
+        private System.Windows.Forms.Button button1;
     }
 }
 
