@@ -21,3 +21,19 @@ E:\Demo\Sedentary-reminder\Reminder\obj\Debug\Reminder.RestFrm.resources
 E:\Demo\Sedentary-reminder\Reminder\obj\Debug\Sedentary Reminder.csproj.GenerateResource.cache
 E:\Demo\Sedentary-reminder\Reminder\obj\Debug\Reminder.exe
 E:\Demo\Sedentary-reminder\Reminder\obj\Debug\Reminder.pdb
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\bin\Debug\Reminder.exe.config
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\bin\Debug\Reminder.exe
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\bin\Debug\Reminder.pdb
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\obj\Debug\Sedentary Reminder.csproj.AssemblyReference.cache
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\obj\Debug\Sedentary Reminder.csproj.SuggestedBindingRedirects.cache
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\obj\Debug\Sedentary Reminder.csproj.ResolveComReference.cache
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\obj\Debug\Reminder.AboutBox.resources
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\obj\Debug\Reminder.MainFrm.resources
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\obj\Debug\Reminder.WorkFrm.resources
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\obj\Debug\Reminder.Properties.Resources.resources
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\obj\Debug\Reminder.RestFrm.resources
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\obj\Debug\Sedentary Reminder.csproj.GenerateResource.cache
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\obj\Debug\Sedentary Reminder.csproj.CoreCompileInputs.cache
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\obj\Debug\Reminder.exe
+C:\Users\29593\Documents\Sedentary-reminder\Reminder\obj\Debug\Reminder.pdb
