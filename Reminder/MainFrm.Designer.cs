@@ -26,7 +26,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+        private void InitializeComponent(int wrk_minutes, int rst_minutes)
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFrm));
@@ -47,6 +47,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.ckBoxInput = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.saveSetting = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numWrkTime)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numRstTime)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
@@ -88,8 +89,8 @@
             this.btn_start.BackColor = System.Drawing.Color.Transparent;
             this.btn_start.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
             this.btn_start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_start.Location = new System.Drawing.Point(95, 240);
-            this.btn_start.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_start.Location = new System.Drawing.Point(149, 281);
+            this.btn_start.Margin = new System.Windows.Forms.Padding(4);
             this.btn_start.Name = "btn_start";
             this.btn_start.Size = new System.Drawing.Size(100, 29);
             this.btn_start.TabIndex = 11;
@@ -121,7 +122,7 @@
             // 
             this.numWrkTime.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numWrkTime.Location = new System.Drawing.Point(128, 59);
-            this.numWrkTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numWrkTime.Margin = new System.Windows.Forms.Padding(4);
             this.numWrkTime.Maximum = new decimal(new int[] {
             120,
             0,
@@ -131,7 +132,7 @@
             this.numWrkTime.Size = new System.Drawing.Size(68, 25);
             this.numWrkTime.TabIndex = 16;
             this.numWrkTime.Value = new decimal(new int[] {
-            60,
+            wrk_minutes,
             0,
             0,
             0});
@@ -141,7 +142,7 @@
             this.numRstTime.BackColor = System.Drawing.Color.White;
             this.numRstTime.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numRstTime.Location = new System.Drawing.Point(127, 92);
-            this.numRstTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numRstTime.Margin = new System.Windows.Forms.Padding(4);
             this.numRstTime.Maximum = new decimal(new int[] {
             30,
             0,
@@ -151,7 +152,7 @@
             this.numRstTime.Size = new System.Drawing.Size(68, 25);
             this.numRstTime.TabIndex = 17;
             this.numRstTime.Value = new decimal(new int[] {
-            5,
+            rst_minutes,
             0,
             0,
             0});
@@ -212,7 +213,7 @@
             this.ckBoxInput.Checked = true;
             this.ckBoxInput.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckBoxInput.Location = new System.Drawing.Point(37, 180);
-            this.ckBoxInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckBoxInput.Margin = new System.Windows.Forms.Padding(4);
             this.ckBoxInput.Name = "ckBoxInput";
             this.ckBoxInput.Size = new System.Drawing.Size(179, 19);
             this.ckBoxInput.TabIndex = 19;
@@ -232,12 +233,27 @@
             this.checkBox1.Text = "开机启动";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // saveSetting
+            // 
+            this.saveSetting.BackColor = System.Drawing.Color.Transparent;
+            this.saveSetting.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.saveSetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.saveSetting.Location = new System.Drawing.Point(27, 281);
+            this.saveSetting.Margin = new System.Windows.Forms.Padding(4);
+            this.saveSetting.Name = "saveSetting";
+            this.saveSetting.Size = new System.Drawing.Size(100, 29);
+            this.saveSetting.TabIndex = 21;
+            this.saveSetting.Text = "保存更改";
+            this.saveSetting.UseVisualStyleBackColor = false;
+            this.saveSetting.Click += new System.EventHandler(this.saveSetting_Click);
+            // 
             // MainFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(284, 282);
+            this.ClientSize = new System.Drawing.Size(284, 323);
+            this.Controls.Add(this.saveSetting);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.ckBoxInput);
             this.Controls.Add(this.label4);
@@ -250,7 +266,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainFrm";
@@ -286,5 +302,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.CheckBox ckBoxInput;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button saveSetting;
     }
 }

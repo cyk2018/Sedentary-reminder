@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.IO;
 using System.Diagnostics;
 using IWshRuntimeLibrary;
+using System.Configuration;
 
 namespace Reminder
 {
@@ -17,8 +18,60 @@ namespace Reminder
         WorkFrm wrkFrm;
         public MainFrm()
         {
-            InitializeComponent();
+            // 在窗体加载时读取配置文件中的数据
+            int wrk_minutes, rst_minutes;
+            LoadSettings(out wrk_minutes, out rst_minutes);
+            InitializeComponent(wrk_minutes, rst_minutes);
         }
+        // 读取配置文件中的数据
+        private void LoadSettings(out int wrk_minutes, out int rst_minutes)
+        {
+            // 读取配置文件中的设置
+            string wrkMinutes = ConfigurationManager.AppSettings["wrkMinutes"];
+            string rstMinutes = ConfigurationManager.AppSettings["rstMinutes"];
+            // 如果有上次的设置，则应用到界面上
+            if (!string.IsNullOrEmpty(wrkMinutes))
+            {
+                wrk_minutes = int.Parse(wrkMinutes);
+            }
+            else
+            {
+                wrk_minutes = 60;
+            }
+            if (!string.IsNullOrEmpty(rstMinutes))
+            {
+                rst_minutes = int.Parse(rstMinutes);
+            }
+            else
+            {
+                rst_minutes = 5;
+            }
+
+        }
+
+        private void SaveSettings()
+        {
+            Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+            // 检查是否存在wrkMinutes和rstMinutes设置，如果不存在则添加
+            if (config.AppSettings.Settings["wrkMinutes"] == null)
+            {
+                config.AppSettings.Settings.Add("wrkMinutes", "");
+            }
+            if (config.AppSettings.Settings["rstMinutes"] == null)
+            {
+                config.AppSettings.Settings.Add("rstMinutes", "");
+            }
+
+            // 更新配置文件中的设置
+            int wrkTime = (int)this.numWrkTime.Value;
+            int rstTime = (int)this.numRstTime.Value;
+            config.AppSettings.Settings["wrkMinutes"].Value = wrkTime.ToString();
+            config.AppSettings.Settings["rstMinutes"].Value = rstTime.ToString();
+            config.Save(ConfigurationSaveMode.Modified);
+
+
+        }
+
 
         private void MainFrm_Load(object sender, EventArgs e)
         {
@@ -183,6 +236,12 @@ namespace Reminder
             {
                 return null;
             }
+        }
+
+        private void saveSetting_Click(object sender, EventArgs e)
+        {
+            SaveSettings();
+            MessageBox.Show("保存成功！");
         }
     }
 }
