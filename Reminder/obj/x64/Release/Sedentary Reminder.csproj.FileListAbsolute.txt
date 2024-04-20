@@ -1,0 +1,19 @@
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\bin\x64\Release\Reminder.exe.config
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\bin\x64\Release\Reminder.exe.manifest
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\bin\x64\Release\Reminder.application
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\bin\x64\Release\Reminder.exe
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\bin\x64\Release\Reminder.pdb
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\obj\x64\Release\Sedentary Reminder.csproj.AssemblyReference.cache
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\obj\x64\Release\Interop.IWshRuntimeLibrary.dll
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\obj\x64\Release\Sedentary Reminder.csproj.ResolveComReference.cache
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\obj\x64\Release\Reminder.AboutBox.resources
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\obj\x64\Release\Reminder.MainFrm.resources
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\obj\x64\Release\Reminder.WorkFrm.resources
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\obj\x64\Release\Reminder.Properties.Resources.resources
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\obj\x64\Release\Reminder.RestFrm.resources
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\obj\x64\Release\Sedentary Reminder.csproj.GenerateResource.cache
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\obj\x64\Release\Sedentary Reminder.csproj.CoreCompileInputs.cache
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\obj\x64\Release\Reminder.exe.manifest
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\obj\x64\Release\Reminder.application
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\obj\x64\Release\Reminder.exe
+C:\Users\29593\Source\Repos\cyk2018\Sedentary-reminder\Reminder\obj\x64\Release\Reminder.pdb

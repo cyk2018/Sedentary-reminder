@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\29593\\source\\repos\\cyk2018\\Sedentary-reminder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90E555B9-A8FA-45DC-A452-5CD7C0220EAC}|Reminder\\Sedentary Reminder.csproj|C:\\Users\\29593\\source\\repos\\cyk2018\\Sedentary-reminder\\reminder\\mainfrm.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90E555B9-A8FA-45DC-A452-5CD7C0220EAC}|Reminder\\Sedentary Reminder.csproj|c:\\users\\29593\\source\\repos\\cyk2018\\sedentary-reminder\\reminder\\mainfrm.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90E555B9-A8FA-45DC-A452-5CD7C0220EAC}|Reminder\\Sedentary Reminder.csproj|solutionrelative:reminder\\mainfrm.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90E555B9-A8FA-45DC-A452-5CD7C0220EAC}|Reminder\\Sedentary Reminder.csproj|c:\\users\\29593\\source\\repos\\cyk2018\\sedentary-reminder\\reminder\\mainfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90E555B9-A8FA-45DC-A452-5CD7C0220EAC}|Reminder\\Sedentary Reminder.csproj|C:\\Users\\29593\\source\\repos\\cyk2018\\Sedentary-reminder\\reminder\\mainfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90E555B9-A8FA-45DC-A452-5CD7C0220EAC}|Reminder\\Sedentary Reminder.csproj|solutionrelative:reminder\\mainfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -84,8 +84,7 @@
               "RelativeToolTip": "Reminder\\RestFrm.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAQwCQAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:23:03.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T08:23:03.478Z"
             },
             {
               "$type": "Document",
@@ -107,7 +106,7 @@
               "RelativeDocumentMoniker": "Reminder\\MainFrm.Designer.cs",
               "ToolTip": "C:\\Users\\29593\\source\\repos\\cyk2018\\Sedentary-reminder\\Reminder\\MainFrm.Designer.cs",
               "RelativeToolTip": "Reminder\\MainFrm.Designer.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAYwH4AAAAQAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAYwD8AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T08:23:03.482Z",
               "EditorCaption": ""
@@ -121,8 +120,7 @@
               "ToolTip": "C:\\Users\\29593\\source\\repos\\cyk2018\\Sedentary-reminder\\Reminder\\MainFrm.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "Reminder\\MainFrm.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:23:03.483Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-04-20T08:23:03.483Z"
             },
             {
               "$type": "Document",
@@ -134,8 +132,7 @@
               "RelativeToolTip": "Reminder\\MainFrm.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:23:03.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T08:23:03.828Z"
             },
             {
               "$type": "Document",
@@ -146,8 +143,7 @@
               "ToolTip": "C:\\Users\\29593\\source\\repos\\cyk2018\\Sedentary-reminder\\Reminder\\RestFrm.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "Reminder\\RestFrm.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:23:04.241Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-04-20T08:23:04.241Z"
             },
             {
               "$type": "Document",
@@ -194,8 +190,7 @@
               "RelativeToolTip": "Reminder\\RestFrm.Designer.cs",
               "ViewState": "AQIAAKQAAAAAAAAAAAAAwMkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:23:04.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T08:23:04.239Z"
             },
             {
               "$type": "Document",
@@ -206,8 +201,7 @@
               "ToolTip": "C:\\Users\\29593\\source\\repos\\cyk2018\\Sedentary-reminder\\Reminder\\RestFrm.resx",
               "RelativeToolTip": "Reminder\\RestFrm.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-04-20T08:23:04.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T08:23:04.24Z"
             }
           ]
         }
