@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Reminder.exe" size="188896">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Reminder.exe" size="190944">
       <assemblyIdentity name="Reminder" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YwhlaT3/1vZ5cKzkNA6glEvR8n8/7bD46efBXMz3WRU=</dsig:DigestValue>
+        <dsig:DigestValue>WwSm2dlx61uWdQaG5mhYD0GPbwVtt5rLXNOjidpu6Xs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

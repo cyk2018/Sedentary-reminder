@@ -37,6 +37,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.lblWarn = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // timerWrk
@@ -122,19 +123,32 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(51, 56);
+            this.button1.Location = new System.Drawing.Point(98, 75);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 9;
             this.button1.Text = "切换计时";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(7, 75);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "稍后提醒";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Visible = false;
             // 
             // WorkFrm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.Green;
-            this.ClientSize = new System.Drawing.Size(153, 80);
+            this.ClientSize = new System.Drawing.Size(185, 110);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblWarn);
@@ -168,6 +182,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblWarn;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

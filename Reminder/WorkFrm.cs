@@ -158,6 +158,7 @@ namespace Reminder
                 Point p = new Point(x, y);
                 this.PointToScreen(p);
                 this.Location = p;
+                button2.Visible = true;
             }         
             
         }
@@ -253,6 +254,14 @@ namespace Reminder
         private void button1_Click(object sender, EventArgs e)
         {
             this.timerWrk.Enabled = !this.timerWrk.Enabled;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // 推迟
+            WorkFrm workFrm = new WorkFrm(wrk_minutes+=10, rst_minutes, input_flag);
+            workFrm.Show();
+            this.Close();
         }
     }
 }
